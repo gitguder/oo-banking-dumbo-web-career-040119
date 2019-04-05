@@ -5,7 +5,6 @@ class BankAccount
   def initialize(sender, receiver, amount)
     @sender = sender
     @receiver = receiver
-    #receiver = BankAccount.name
     @amount = amount #this can be self.amount
     @status = "pending"
   end
